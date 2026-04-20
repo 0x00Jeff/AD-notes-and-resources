@@ -12,7 +12,9 @@ you may also find some of these attacks discussed on my htb writeups or future p
 ## foothold
 - [time roast attack](https://cybersecurity.bureauveritas.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf): can be done with `nxc -M timeroast` module or [timeroast.py](https://github.com/bvcyber/Timeroast/tree/main)
 ## priv esc
-- abusing wmi filters: [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely) and [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
+- [A Red Teamer’s Guide to GPOs and OUs](https://wald0.com/?p=179): 
+  - [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely)
+  - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
 # ADCS
   - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
