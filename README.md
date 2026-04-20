@@ -1,2 +1,18 @@
 # AD-notes-and-resources
 my notes for studying AD/ADCS exploitation (work in progress)
+
+sorta not-so-awesome awesome AD resources repo where I share articles/papers/tools I read about AD/ADCS exploitation, should be a mess untill I figure out the format and put all my notes here, pull request are more than welcome, I'll accept them as soon as I read the new resources
+
+you may also find some of these attacks discussed on my htb writeups or future posts on [my blog](http://0x00jeff.github.io)
+
+# AD
+## general knowledge (needed for other attacks)
+- [kerberos authentication in depth](https://www.youtube.com/watch?v=4LDpb1R3Ghg)
+## foothold
+- [time roast attack](https://cybersecurity.bureauveritas.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf): can be done with `nxc -M timeroast` module or [timeroast.py](https://github.com/bvcyber/Timeroast/tree/main)
+## priv esc
+- abusing wmi filters: [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely) and [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
+
+# ADCS
+  - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
+  - [ESC17](https://blog.digitrace.de/2026/01/using-adcs-to-attack-https-enabled-wsus-clients/)
