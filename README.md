@@ -7,6 +7,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
 
 # AD
 ## general knowledge (needed for other attacks)
+- [make your own AD homelab](https://activedirectorypro.com/create-active-directory-test-environment/): extremely recommended to learn the attack mentioned here, good tutorial to follow but I'd skip importing the users and OUs and manually create a few, <b>more than one DC is recommended to practise relaying attacks</b>, if physical resources are a limit you could go with the server option (desktopless), pretty light and your fvrt AI can help seeting it up, <b>an external CA host is recommended for practising ADCS attack</b> (found this thanks to `0xTr4c3`)
 - [kerberos authentication in depth](https://www.youtube.com/watch?v=4LDpb1R3Ghg)
 ## foothold
 - [time roast attack](https://cybersecurity.bureauveritas.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf): can be done with `nxc -M timeroast` module or [timeroast.py](https://github.com/bvcyber/Timeroast/tree/main)
