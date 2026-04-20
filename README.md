@@ -17,5 +17,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
 # ADCS
+  - [Certified Pre-Owned](https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf): the paper that started everything (includes esc1-16)
   - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
   - [ESC17](https://blog.digitrace.de/2026/01/using-adcs-to-attack-https-enabled-wsus-clients/)
+  - [No PKINIT? No Problem](https://hwah.us/2025/04/12/no-pkinit-no-problem/)
