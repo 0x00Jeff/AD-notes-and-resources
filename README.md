@@ -9,12 +9,18 @@ you may also find some of these attacks discussed on my htb writeups or future p
 ## Full on guides
 - [Attacking Active Directory: 0 to 0.9](https://zer1t0.gitlab.io/posts/attacking_ad/): grants HUGE amount of knowldge for AD and has LOADS of resources that would take weeks to really dive in, although personally I think it's better used as a reference or to know what to learn next since it has a nice roadmap that assumes 0 pre-knowledge (thanks `g0rchy`!)
 
-## Homelabs
+## (Home)labs
 - [make your own AD homelab](https://activedirectorypro.com/create-active-directory-test-environment/): extremely recommended to learn the attacks mentioned here as well how to imeplement them, good tutorial to follow but I'd skip importing the users and OUs and manually create a few, <b>more than one DC is recommended to practise relaying attacks</b>, if physical resources are a limit you could go with the server option (desktopless), pretty light and your fvrt AI can help seeting it up, <b>an external CA host is recommended for practising ADCS attack</b> (thanks `0xTr4c3`!)
 - [game of active directory](https://github.com/Orange-Cyberdefense/GOAD): ready labs of all sizes, just install and attack
+- [Extreme Red Team Laboratories](https://extremeredlab.0x29a.it/): free AD cert of extreme difficulty, includes networks with both linux and AD machines, cloud misconfigs across AWS/Azure/GCP, extreme pivoting etc
 
 ## General knowledge (needed for other attacks)
 - [[English] You Do (Not) Understand Kerberos](https://www.youtube.com/watch?v=4LDpb1R3Ghg): basic kerberos authentication in depth
+- kerberos delegation playlist:
+  - [1 - [English] You Do (Not) Understand Kerberos Delegation - Introduction](https://www.youtube.com/watch?v=p9QFdITuvgU)
+  - [2 - [English] You Do (Not) Understand Kerberos Delegation - Unconstrained Delegation](https://www.youtube.com/watch?v=xDFRUYv1-eU)
+  - [3 - [English] You Do (Not) Understand Kerberos Delegation - Constrained Delegation](https://www.youtube.com/watch?v=gzqq2r6cZjc)
+  - [4 - [English] You Do (Not) Understand Kerberos Delegation - RBCD](https://www.youtube.com/watch?v=vlKwCTvp5_w)
 
 ## Foothold/priv esc
 - AS-REP Roasting (kerberos knowledge needed):
