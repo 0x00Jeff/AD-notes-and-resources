@@ -16,19 +16,24 @@ you may also find some of these attacks discussed on my htb writeups or future p
 
 ## General knowledge (needed for other attacks)
 - [[English] You Do (Not) Understand Kerberos](https://www.youtube.com/watch?v=4LDpb1R3Ghg): basic kerberos authentication in depth
-- kerberos delegation playlist:
-  - [1 - [English] You Do (Not) Understand Kerberos Delegation - Introduction](https://www.youtube.com/watch?v=p9QFdITuvgU)
-  - [2 - [English] You Do (Not) Understand Kerberos Delegation - Unconstrained Delegation](https://www.youtube.com/watch?v=xDFRUYv1-eU)
-  - [3 - [English] You Do (Not) Understand Kerberos Delegation - Constrained Delegation](https://www.youtube.com/watch?v=gzqq2r6cZjc)
-  - [4 - [English] You Do (Not) Understand Kerberos Delegation - RBCD](https://www.youtube.com/watch?v=vlKwCTvp5_w)
 
-## Foothold/priv esc
+## Foothold
 - AS-REP Roasting (kerberos knowledge needed):
   - [attacking from a linux machine](https://www.thehacker.recipes/ad/movement/kerberos/asreproast)
   - [implementing the attack in a windows homelab and attacking from windows](https://asma-altayyari.gitbook.io/ad-attack)
 - [time roast attack](https://cybersecurity.bureauveritas.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf): can be done with `nxc -M timeroast` module or [timeroast.py](https://github.com/bvcyber/Timeroast/tree/main)
-- [TR19: Fun with LDAP and Kerberos: Attacking AD from non-Windows machines](https://www.youtube.com/watch?v=2Xfd962QfPs): talk behind [kerbrute](https://github.com/ropnop/kerbrute), the fastest tool for AD credentials bruteforce, can used to enumerate valid usernames on a domain as well as password spraying
+- [TR19: Fun with LDAP and Kerberos: Attacking AD from non-Windows machines](https://www.youtube.com/watch?v=2Xfd962QfPs): the talk behind [kerbrute](https://github.com/ropnop/kerbrute), the fastest tool for AD credentials bruteforce, can used to enumerate valid usernames on a domain as well as password spraying
 ## Priv esc
+### kerberos delegation
+- kerberos delegation playlist: (refer to kerberos auth reource first)
+  - [1 - [English] You Do (Not) Understand Kerberos Delegation - Introduction](https://www.youtube.com/watch?v=p9QFdITuvgU)
+  - [2 - [English] You Do (Not) Understand Kerberos Delegation - Unconstrained Delegation](https://www.youtube.com/watch?v=xDFRUYv1-eU)
+  - [3 - [English] You Do (Not) Understand Kerberos Delegation - Constrained Delegation](https://www.youtube.com/watch?v=gzqq2r6cZjc)
+  - [4 - [English] You Do (Not) Understand Kerberos Delegation - RBCD](https://www.youtube.com/watch?v=vlKwCTvp5_w)
+- [Wagging the Dog: Abusing Resource-Based Constrained Delegation to Attack Active Directory](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
+
+
+### GPOs and WMI filters
 - [A Red Teamer’s Guide to GPOs and OUs](https://wald0.com/?p=179) (thanks `orakib`!):
   - [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely)
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
