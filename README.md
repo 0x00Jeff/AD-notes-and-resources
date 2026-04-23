@@ -38,6 +38,11 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely)
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
+## persistence
+### golden gMSA
+- [gMSA Active Directory Attacks](https://www.semperis.com/blog/golden-gmsa-attack/): performing the attack from windows
+- [pyGoldenGMSA - Reversing Windows DLLs to Compute gMSA Passwords on Linux](https://felixbillieres.github.io/posts/pygoldengmsa-reversing-windows-dlls/): performing the attack from linux
+
 # ADCS
   - [Certified Pre-Owned](https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf): the paper that started everything (includes esc1-16)
   - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
