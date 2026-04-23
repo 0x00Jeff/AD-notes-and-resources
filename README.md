@@ -31,6 +31,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [3 - [English] You Do (Not) Understand Kerberos Delegation - Constrained Delegation](https://www.youtube.com/watch?v=gzqq2r6cZjc)
   - [4 - [English] You Do (Not) Understand Kerberos Delegation - RBCD](https://www.youtube.com/watch?v=vlKwCTvp5_w)
 - [Wagging the Dog: Abusing Resource-Based Constrained Delegation to Attack Active Directory](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
+- [S4U2Pwnage](https://harmj0y.medium.com/s4u2pwnage-36efe1a2777c)
 
 
 ### GPOs and WMI filters
