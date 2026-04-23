@@ -32,6 +32,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [4 - [English] You Do (Not) Understand Kerberos Delegation - RBCD](https://www.youtube.com/watch?v=vlKwCTvp5_w)
 - [Wagging the Dog: Abusing Resource-Based Constrained Delegation to Attack Active Directory](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
 - [S4U2Pwnage](https://harmj0y.medium.com/s4u2pwnage-36efe1a2777c)
+- [Delegating Kerberos To Bypass Kerberos Delegation Limitation by Charlie Bromberg](https://www.youtube.com/watch?v=byykEId3FUs)
 
 
 ### GPOs and WMI filters
