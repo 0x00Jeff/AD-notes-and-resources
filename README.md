@@ -40,6 +40,9 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely)
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
+### Recycle bin
+- [Have You Looked in the Trash? Unearthing Privilege Escalations from the Active Directory Recycle Bin](https://cravaterouge.com/articles/ad-bin/)
+
 ## persistence
 ### golden gMSA
 - [gMSA Active Directory Attacks](https://www.semperis.com/blog/golden-gmsa-attack/): performing the attack from windows
