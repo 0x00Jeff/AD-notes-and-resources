@@ -41,7 +41,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
 ### RODCs
--[At the Edge of Tier Zero: The Curious Case of the RODC](https://specterops.io/blog/2023/01/25/at-the-edge-of-tier-zero-the-curious-case-of-the-rodc/): from a RODC local administrator to DA
+- [At the Edge of Tier Zero: The Curious Case of the RODC](https://specterops.io/blog/2023/01/25/at-the-edge-of-tier-zero-the-curious-case-of-the-rodc/): from a RODC local administrator to DA
 
 
 ### Recycle bin
@@ -53,6 +53,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
 - [pyGoldenGMSA - Reversing Windows DLLs to Compute gMSA Passwords on Linux](https://felixbillieres.github.io/posts/pygoldengmsa-reversing-windows-dlls/): performing the attack from linux
 
 # ADCS
+  - [Understanding Active Directory Certificate Services (AD CS)](https://www.vaadata.com/blog/understanding-active-directory-certificate-services-ad-cs/): simple intro for beginners 
   - [Certified Pre-Owned](https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf): the paper that started everything (includes esc1-16)
   - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
   - [ESC17](https://blog.digitrace.de/2026/01/using-adcs-to-attack-https-enabled-wsus-clients/)
