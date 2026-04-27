@@ -40,6 +40,10 @@ you may also find some of these attacks discussed on my htb writeups or future p
   - [OUs and GPOs and WMI Filters, Oh My!](https://rastamouse.me/ous-and-gpos-and-wmi-filters-oh-my/) (pics not wroking sadgely)
   - [Persistence With GPP Item-level Targeting](https://pentest.party/posts/2024/persistence-with-wmi-filters/)
 
+### RODCs
+-[At the Edge of Tier Zero: The Curious Case of the RODC](https://specterops.io/blog/2023/01/25/at-the-edge-of-tier-zero-the-curious-case-of-the-rodc/): from a RODC local administrator to DA
+
+
 ### Recycle bin
 - [Have You Looked in the Trash? Unearthing Privilege Escalations from the Active Directory Recycle Bin](https://cravaterouge.com/articles/ad-bin/)
 
