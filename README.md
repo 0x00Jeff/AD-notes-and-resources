@@ -42,6 +42,7 @@ you may also find some of these attacks discussed on my htb writeups or future p
 
 ### RODCs
 - [At the Edge of Tier Zero: The Curious Case of the RODC](https://specterops.io/blog/2023/01/25/at-the-edge-of-tier-zero-the-curious-case-of-the-rodc/): from a RODC local administrator to DA
+- [hacker recipes: RODC](https://www.thehacker.recipes/ad/movement/builtins/rodc): varios RODC attacks
 
 
 ### Recycle bin
