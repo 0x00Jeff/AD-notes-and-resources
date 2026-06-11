@@ -34,6 +34,9 @@ you may also find some of these attacks discussed on my htb writeups or future p
 - [S4U2Pwnage](https://harmj0y.medium.com/s4u2pwnage-36efe1a2777c)
 - [Delegating Kerberos To Bypass Kerberos Delegation Limitation by Charlie Bromberg](https://www.youtube.com/watch?v=byykEId3FUs)
 
+### trust attacks 
+- [ 1 07 Not A Security Boundary Breaking Forest Trusts Will Schroeder Lee Christensen ](https://www.youtube.com/watch?v=UD3ubiMeoco): from a compromised trusted forest to a trusting forrest compromise abusing 2 ways trusts 
+
 
 ### GPOs and WMI filters
 - [A Red Teamer’s Guide to GPOs and OUs](https://wald0.com/?p=179) (thanks `orakib`!):
