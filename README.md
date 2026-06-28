@@ -34,6 +34,15 @@ you may also find some of these attacks discussed on my htb writeups or future p
 - [S4U2Pwnage](https://harmj0y.medium.com/s4u2pwnage-36efe1a2777c)
 - [Delegating Kerberos To Bypass Kerberos Delegation Limitation by Charlie Bromberg](https://www.youtube.com/watch?v=byykEId3FUs)
 
+### forging tickets
+once you have a good understand of the kerberos ticketing system and you start elevating privs in the domain, you can start forging tickets, either for priv esc or backdooring purposes:
+  - [Silver tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/silver)
+  - [Golden tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/golden)
+  - [Diamond tickets ](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/diamond)
+  - [Sapphire tickets ](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/sapphire)
+
+these attacks can also be paired with trusts to priv esc from one compromised domain/forrest to another
+
 ### trust attacks 
 - [ 1 07 Not A Security Boundary Breaking Forest Trusts Will Schroeder Lee Christensen ](https://www.youtube.com/watch?v=UD3ubiMeoco): from a compromised trusted forest to a trusting forrest compromise abusing 2 ways trusts 
 
