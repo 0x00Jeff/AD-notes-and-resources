@@ -71,3 +71,4 @@ these attacks can also be paired with trusts to priv esc from one compromised do
   - [ADCS exploitation bible](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
   - [ESC17](https://blog.digitrace.de/2026/01/using-adcs-to-attack-https-enabled-wsus-clients/)
   - [No PKINIT? No Problem](https://hwah.us/2025/04/12/no-pkinit-no-problem/)
+  - [Certighost (CVE-2026-54121)](https://gist.github.com/H0j3n/a5ef2609b5f2944ac2390a191a534c26)
